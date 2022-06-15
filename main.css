@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+body{
+	font-family: OCR A Std, monospace;
+	background: #fdcfde;
+	color: rgb(0, 0, 0);
+}
+
+.logo {
+    margin: 0 auto;
+padding: 25%;
+
+}
+p{
+	text-align:left;
+}
+h1{
+	text-align:left;
+}
+
+.header-1 {
+	background-color: #fcc6dc;
+	width: 980px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.imgs ul li{
+	position: relative;
+	display: inline-block;
+	margin: 2rem 1rem;
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.imgs ul li:after{
+	content: "";
+	background-color: #0cf;
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	z-index: -1;
+}
+
+.imgs ul li:hover{
+	transform: scale(1.25,1.25);
+}
+
+.imgs ul li:hover::after{
+	opacity: 1;
+}
+
+.shopee {
+	margin-top: 2%;
+}
+
+.shopee a {
+	text-decoration: none;
+	color: rgb(245, 73, 202);
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	border: solid 2px rgb(245, 73, 202);
+	border-radius: 10px;
+}
+
+.shopee a:hover{
+	background-color: rgb(0, 0, 0);
+	border: solid 2px rgb(245, 73, 202);
+}
+
+.motivacao{
+	background-color: rgb(252, 186, 252);
+}
